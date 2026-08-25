@@ -1,0 +1,20 @@
+{
+  "name": "art-mcp-server",
+  "version": "0.1.0",
+  "description": "Arknights Art MCP server：按干员/稀有度/阵营搜索与分析明日方舟美术资产",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.0.0",
+    "zod": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
